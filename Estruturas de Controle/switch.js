@@ -1,10 +1,10 @@
 let nota = 10;
 
-if (nota < 0){
+if (nota < 0) {
     console.log('Nota invalida')
 }
-if (nota > 10){
-    console.log('Favor digitar valires de 1 a 10')
+if (nota > 10) {
+    console.log('Favor digitar valores de 1 a 10')
 }
 switch (Math.ceil(nota)) {
     case 10: case 9: case 8: case 7:
@@ -18,6 +18,6 @@ switch (Math.ceil(nota)) {
         break;
     case 1: case 0:
         console.log('Precisa estudar mais!')
-   
+
 
 }
